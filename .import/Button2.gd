@@ -10,8 +10,6 @@ func _pressed():
 	cookies = cookies + 1
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	print("get nd",get_node(".."))
-	
 	print("get pp ", get_parent())
 	pass # Replace with function body.
 
